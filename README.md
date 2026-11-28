@@ -9,3 +9,6 @@ This repository is the update server: the installed plugin (3.6.0+) reads `updat
 1. Replace `bagus-design-system.zip` with the new build (folder `bagus-design-system/` inside).
 2. Set `version` (and `changelog`) in `update.json` to the version in the plugin header.
 3. Commit to `main`. Sites update within 6 hours (or WordPress → Settings → Bagus Design System → Check for updates now).
+
+## Bagus theme (builder-free)
+`bagus-theme.zip` + `theme-update.json` = update server for the Bagus theme (1.1.0+). Same release steps: replace the zip, raise `version`, commit to `main`.
